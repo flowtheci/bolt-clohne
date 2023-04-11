@@ -14,6 +14,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { BarElementComponent } from './bar-element/bar-element.component';
 import { LandingComponent } from './landing/landing.component';
 import {MatButtonModule} from "@angular/material/button";
+import { PromoBannerComponent } from './promo-banner/promo-banner.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatButtonModule} from "@angular/material/button";
     HeaderComponent,
     TopBarComponent,
     BarElementComponent,
-    LandingComponent
+    LandingComponent,
+    PromoBannerComponent
   ],
   imports: [
     BrowserModule,
