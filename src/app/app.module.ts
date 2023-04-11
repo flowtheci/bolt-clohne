@@ -18,6 +18,7 @@ import { PromoBannerComponent } from './promo-banner/promo-banner.component';
 import { StepsComponent } from './steps/steps.component';
 import { AppBannerComponent } from './app-banner/app-banner.component';
 import { EndStepsComponent } from './end-steps/end-steps.component';
+import { BottomPromoComponent } from './bottom-promo/bottom-promo.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { EndStepsComponent } from './end-steps/end-steps.component';
     PromoBannerComponent,
     StepsComponent,
     AppBannerComponent,
-    EndStepsComponent
+    EndStepsComponent,
+    BottomPromoComponent
   ],
   imports: [
     BrowserModule,
