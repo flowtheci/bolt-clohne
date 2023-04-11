@@ -17,6 +17,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { PromoBannerComponent } from './promo-banner/promo-banner.component';
 import { StepsComponent } from './steps/steps.component';
 import { AppBannerComponent } from './app-banner/app-banner.component';
+import { EndStepsComponent } from './end-steps/end-steps.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AppBannerComponent } from './app-banner/app-banner.component';
     LandingComponent,
     PromoBannerComponent,
     StepsComponent,
-    AppBannerComponent
+    AppBannerComponent,
+    EndStepsComponent
   ],
   imports: [
     BrowserModule,
