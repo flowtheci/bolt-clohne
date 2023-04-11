@@ -1,18 +1,20 @@
-<div class="container">
-  <div [matMenuTriggerFor]="menu" class="language-switcher">
-    <mat-icon class="lang-icon">language</mat-icon>
-    <p class="switcher-text">{{chosenLang}}</p>
-  </div>
-  <mat-menu #menu="matMenu">
-    <button (click)="changeToEstonian()" mat-menu-item>{{'EE' | translate}}</button>
-    <button (click)="changeToEnglish()" mat-menu-item>English</button>
-    <button (click)="changeToRussian()" mat-menu-item>Russian</button>
-  </mat-menu>
-  <div class="action-buttons">
-    <p class="action-text">Hakka Bolti partneriks kui</p>
-    <p class="action-button">Juht</p>
-    <p class="action-button">Sõidupargi omanik</p>
-    <p class="action-button">Kuller</p>
-    <p class="action-button">Restoran või pood</p>
+<div class="top">
+  <div class="container">
+    <div [matMenuTriggerFor]="menu" class="language-switcher">
+      <mat-icon class="lang-icon">language</mat-icon>
+      <p class="switcher-text">{{chosenLang}}</p>
+    </div>
+    <mat-menu #menu="matMenu">
+      <button (click)="changeToEstonian()" mat-menu-item>{{'EE' | translate}}</button>
+      <button (click)="changeToEnglish()" mat-menu-item>{{'EN' | translate}}</button>
+      <button (click)="changeToRussian()" mat-menu-item>{{'RU' | translate}}</button>
+    </mat-menu>
+    <div class="action-buttons">
+      <p class="action-text">{{'bolt-partner' | translate}}</p>
+      <p class="action-button">{{'driver' | translate}}</p>
+      <p class="action-button">{{'carpark' | translate}}</p>
+      <p class="action-button">{{'courier' | translate}}</p>
+      <p class="action-button">{{'store' | translate}}</p>
+    </div>
   </div>
 </div>

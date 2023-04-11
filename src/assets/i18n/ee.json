@@ -1,5 +1,16 @@
 {
   "EE": "Eesti keel",
   "EN": "English",
-  "RU": "Русский"
+  "RU": "Русский",
+  "bolt-partner": "Hakka Bolti partneriks kui",
+  "driver": "Juht",
+  "carpark": "Sõidupargi omanik",
+  "courier": "Kuller",
+  "store": "Restoran või pood",
+  "services": "Teenused",
+  "become-partner": "Hakka Bolti partneriks",
+  "company": "Ettevõte",
+  "support": "Klienditugi",
+  "safety": "Ohutus",
+  "cities": "Linnad"
 }

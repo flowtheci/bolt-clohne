@@ -11,12 +11,14 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslationLoaderService} from "../services/translation-loader.service";
 import {HttpClientModule} from "@angular/common/http";
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { BarElementComponent } from './bar-element/bar-element.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TopBarComponent
+    TopBarComponent,
+    BarElementComponent
   ],
     imports: [
         BrowserModule,

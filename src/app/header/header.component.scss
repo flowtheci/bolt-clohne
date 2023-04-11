@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Helvetica:400,400i,700,700i&display=swap');
+
 
 $bolt-text: #249e64;
 
+.top{
+  margin-top: -8px;
+  padding-top: 8px;
+  width: 100%;
+  background-color: #EDEDED;
+}
+
 .container {
   display: flex;
-  background-color: #F9FAFB;
   max-width: 80%;
   justify-content: space-between;
   align-self: center;
   justify-self: center;
-  margin: 5px auto 0;
+  margin: 5px auto 5px;
+  padding-bottom: 8px;
 }
 
 .lang-icon {
