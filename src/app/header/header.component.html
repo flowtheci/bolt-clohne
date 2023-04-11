@@ -1,8 +1,13 @@
 <div class="container">
-  <div class="language-switcher">
+  <div [matMenuTriggerFor]="menu" class="language-switcher">
     <mat-icon class="lang-icon">language</mat-icon>
-    <p class="switcher-text">Eesti keel</p>
+    <p class="switcher-text">{{chosenLang}}</p>
   </div>
+  <mat-menu #menu="matMenu">
+    <button (click)="changeToEstonian()" mat-menu-item>{{'EE' | translate}}</button>
+    <button (click)="changeToEnglish()" mat-menu-item>English</button>
+    <button (click)="changeToRussian()" mat-menu-item>Russian</button>
+  </mat-menu>
   <div class="action-buttons">
     <p class="action-text">Hakka Bolti partneriks kui</p>
     <p class="action-button">Juht</p>
