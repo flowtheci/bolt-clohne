@@ -20,5 +20,12 @@
   "order-car-web": "TELLI AUTO VEEBIST",
   "become-driver": "HAKKA BOLTI JUHIKS",
   "earn-while-driving": "Teeni autoga sõites raha",
-  "schedule": "Sõida oma graafiku alusel ja ole iseenda ülemus."
+  "schedule": "Sõida oma graafiku alusel ja ole iseenda ülemus.",
+  "drive-bolt": "Sõida Boltiga",
+  "car-close": "Lähim auto on minutite kaugusel.",
+  "best-prices": "Parimad hinnad",
+  "price-city": "Pakume igas linnas parimaid hindu.",
+  "check-it-out": "Vaata ise järele!",
+  "easy": "Lihtne kasutada",
+  "arrive-destination": "Jõua sihtkohta nii kiiresti kui võimalik."
 }
