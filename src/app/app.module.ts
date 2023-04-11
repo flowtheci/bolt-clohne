@@ -12,28 +12,32 @@ import {TranslationLoaderService} from "../services/translation-loader.service";
 import {HttpClientModule} from "@angular/common/http";
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { BarElementComponent } from './bar-element/bar-element.component';
+import { LandingComponent } from './landing/landing.component';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TopBarComponent,
-    BarElementComponent
+    BarElementComponent,
+    LandingComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatIconModule,
-        MatMenuModule,
-      HttpClientModule,
-      TranslateModule.forRoot({
-        loader: {
-          provide: TranslateLoader,
-          useClass: TranslationLoaderService
-        }
-      })
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatMenuModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useClass: TranslationLoaderService
+      }
+    }),
+    MatButtonModule
+  ],
   providers: [TranslationLoaderService],
   bootstrap: [AppComponent]
 })

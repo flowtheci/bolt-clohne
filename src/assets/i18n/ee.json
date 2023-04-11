@@ -12,5 +12,10 @@
   "company": "Ettevõte",
   "support": "Klienditugi",
   "safety": "Ohutus",
-  "cities": "Linnad"
+  "cities": "Linnad",
+  "landing-text-1": "Kiire ja soodne",
+  "landing-text-2": "viis liikumiseks.",
+  "download-app": "Laadi rakendus alla",
+  "order-web": "Telli Bolt veebist ilma rakendust kasutamata",
+  "order-car-web": "TELLI AUTO VEEBIST"
 }
