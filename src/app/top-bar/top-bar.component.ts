@@ -27,7 +27,7 @@ export class TopBarComponent implements OnInit {
 ];
 
   companyItems: MenuItem[] = [
-    {title: 'job-opportunities', subtitle: ''},
+    {title: 'job-opportunities', subtitle: 'come-work', useSuffix: true},
     {title: 'about-us', subtitle: ''},
     {title: 'green-plan', subtitle: ''},
     {title: 'blog', subtitle: ''},
@@ -57,4 +57,5 @@ export class TopBarComponent implements OnInit {
 export interface MenuItem {
   title: string,
   subtitle: string,
+  useSuffix?: boolean,
 }

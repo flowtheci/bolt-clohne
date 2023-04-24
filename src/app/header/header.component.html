@@ -1,14 +1,6 @@
 <div class="top">
   <div class="container">
-    <div [matMenuTriggerFor]="menu" class="language-switcher">
-      <mat-icon class="lang-icon">language</mat-icon>
-      <p class="switcher-text">{{chosenLang}}</p>
-    </div>
-    <mat-menu #menu="matMenu">
-      <button (click)="changeToEstonian()" mat-menu-item>{{'EE' | translate}}</button>
-      <button (click)="changeToEnglish()" mat-menu-item>{{'EN' | translate}}</button>
-      <button (click)="changeToRussian()" mat-menu-item>{{'RU' | translate}}</button>
-    </mat-menu>
+    <app-lang-switcher></app-lang-switcher>
     <div class="action-buttons">
       <p class="action-text">{{'bolt-partner' | translate}}</p>
       <p class="action-button">{{'driver' | translate}}</p>

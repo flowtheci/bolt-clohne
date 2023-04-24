@@ -40,6 +40,7 @@ export class BarElementComponent implements OnInit {
       this.darkOverlay = document.createElement('div');
       this.darkOverlay.className = 'dark-overlay';
       document.body.appendChild(this.darkOverlay);
+      this.darkOverlay.classList.add('show-transition');
       document.addEventListener('click', this.handleDocumentClick);
     } else {
       document.removeEventListener('click', this.handleDocumentClick);

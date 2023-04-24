@@ -4,7 +4,12 @@
 </div>
 <div class="menu" [@slideInOut]="menuState">
   <div class="menu-item" [class.open]="isOpen" *ngFor="let item of items">
-    <p class="title">{{item.title | translate}}</p>
-    <p *ngIf="item.subtitle !== ''" class="subtitle">{{item.subtitle | translate}}</p>
+    <p *ngIf="!item.useSuffix" class="title">{{item.title | translate}}
+    </p>
+    <div class="suffix-container" *ngIf="item.useSuffix">
+      <p class="title">{{item.title | translate}}</p>
+      <p class="suffix">{{item.subtitle | translate}}</p>
+    </div>
+    <p *ngIf="item.subtitle !== '' && !item.useSuffix" class="subtitle">{{item.subtitle | translate}}</p>
   </div>
 </div>

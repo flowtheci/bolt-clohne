@@ -19,6 +19,8 @@ import { StepsComponent } from './steps/steps.component';
 import { AppBannerComponent } from './app-banner/app-banner.component';
 import { EndStepsComponent } from './end-steps/end-steps.component';
 import { BottomPromoComponent } from './bottom-promo/bottom-promo.component';
+import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
+import { LangSwitcherComponent } from './header/lang-switcher/lang-switcher.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BottomPromoComponent } from './bottom-promo/bottom-promo.component';
     StepsComponent,
     AppBannerComponent,
     EndStepsComponent,
-    BottomPromoComponent
+    BottomPromoComponent,
+    BottomBannerComponent,
+    LangSwitcherComponent
   ],
   imports: [
     BrowserModule,
