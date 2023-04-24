@@ -161,11 +161,19 @@ $bolt-text: #249e64;
 
 .clickable {
   margin-left: 20px;
+  user-select: none;
+  --webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .clickable:hover {
   cursor: pointer;
   color: $bolt-text;
+  user-select: none;
+  --webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 
