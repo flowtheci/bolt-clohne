@@ -18,7 +18,7 @@ export class LangSwitcherComponent implements OnInit {
     ngOnInit(): void {
     }
 
-    
+
 
   changeToEstonian() {
     this.chosenLang = LangOptions.EE;
