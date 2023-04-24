@@ -1,13 +1,22 @@
 .btn-text {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 400;
+  font-family: 'Euclid Circular B', sans-serif;
+  font-weight: 300;
   font-size: 17px;
   margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn-icon {
   margin-top: -2px;
   color: gray;
+  transition: transform 0.5s ease;
+}
+
+.btn-icon.rotated {
+  transform: rotate(180deg);
 }
 
 .button {
@@ -18,8 +27,56 @@
   padding: 10px;
   cursor: pointer;
   border-radius: 8px;
+  transition: background-color 0.1s ease;
 }
 
 .button:hover {
   background-color: lightgray;
+}
+
+.menu {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 7px 5px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  width: 20vw;
+}
+
+.menu-item {
+  padding: 10px 8px;
+  border-radius: 8px;
+  transition: background-color 0.1s ease;
+}
+
+.menu-item:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.title {
+  font-family: 'Euclid Circular B', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 3px;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.subtitle {
+  font-family: 'Euclid Circular B', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: darkslategray;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

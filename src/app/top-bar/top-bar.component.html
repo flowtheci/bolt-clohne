@@ -1,11 +1,11 @@
 <div class="container">
   <img class="logo" src="assets/images/logo.svg" alt="Bolt logo">
-  <app-bar-element [title]="'services'"></app-bar-element>
-  <app-bar-element [title]="'become-partner'"></app-bar-element>
-  <app-bar-element [title]="'company'"></app-bar-element>
+  <app-bar-element [title]="'services'" [items]="servicesMenuItems"></app-bar-element>
+  <app-bar-element [title]="'become-partner'" [items]="becomePartnerItems"></app-bar-element>
+  <app-bar-element [title]="'company'" [items]="companyItems"></app-bar-element>
   <div class="button">
     <p class="btn-text">{{'support' | translate}}</p>
   </div>
-  <app-bar-element [title]="'safety'"></app-bar-element>
-  <app-bar-element [title]="'cities'"></app-bar-element>
+  <app-bar-element [title]="'safety'" [items]="safetyItems"></app-bar-element>
+  <app-bar-element [title]="'cities'" [items]="citiesItems"></app-bar-element>
 </div>

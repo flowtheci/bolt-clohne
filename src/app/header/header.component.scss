@@ -7,6 +7,9 @@ $bolt-text: #249e64;
   padding-top: 8px;
   width: 100%;
   background-color: #EDEDED;
+  position: relative;
+  z-index: 1000;
+  margin-bottom: 0;
 }
 
 .container {

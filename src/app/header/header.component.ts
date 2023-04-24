@@ -34,7 +34,7 @@ export class HeaderComponent implements OnInit {
 }
 
 enum LangOptions {
-  EE = "Eesti keel", EN = "English", RU = "Russian",
+  EE = "Eesti keel", EN = "English", RU = "Русский",
 }
 
 

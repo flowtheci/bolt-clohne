@@ -1,10 +1,15 @@
 .container {
   display: flex;
-  max-width: 80%;
+  max-width: 100%;
   justify-content: flex-start;
   align-self: center;
   justify-self: center;
-  margin: 25px auto 15px;
+  padding: 25px 10vw 15px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+  background-color: white;
+  margin-top: -5px;
 }
 
 .logo {
@@ -13,10 +18,14 @@
 }
 
 .btn-text {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 400;
+  font-family: 'Euclid Circular B', sans-serif;
+  font-weight: 300;
   font-size: 17px;
   margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn-icon {

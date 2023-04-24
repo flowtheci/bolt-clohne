@@ -1,4 +1,10 @@
-<div class="button">
+<div class="button" (click)="toggleMenu()">
   <p class="btn-text">{{title | translate}}</p>
-  <mat-icon class="btn-icon">expand_more</mat-icon>
+  <mat-icon [class.rotated]="isOpen" class="btn-icon">expand_more</mat-icon>
+</div>
+<div class="menu" [@slideInOut]="menuState">
+  <div class="menu-item" *ngFor="let item of items">
+    <p class="title">{{item.title | translate}}</p>
+    <p *ngIf="item.subtitle !== ''" class="subtitle">{{item.subtitle | translate}}</p>
+  </div>
 </div>
