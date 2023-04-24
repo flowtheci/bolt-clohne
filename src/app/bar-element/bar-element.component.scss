@@ -51,7 +51,10 @@
   transition: background-color 0.1s ease;
 }
 
-.menu-item:hover {
+.open {
+}
+
+.open:hover {
   background-color: lightgray;
   cursor: pointer;
 }

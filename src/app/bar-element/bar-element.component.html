@@ -3,7 +3,7 @@
   <mat-icon [class.rotated]="isOpen" class="btn-icon">expand_more</mat-icon>
 </div>
 <div class="menu" [@slideInOut]="menuState">
-  <div class="menu-item" *ngFor="let item of items">
+  <div class="menu-item" [class.open]="isOpen" *ngFor="let item of items">
     <p class="title">{{item.title | translate}}</p>
     <p *ngIf="item.subtitle !== ''" class="subtitle">{{item.subtitle | translate}}</p>
   </div>
